@@ -1,0 +1,11 @@
+{% extends 'base.html' %} {% block content %}
+
+<h1>작성된 게시글 내용 확인하기</h1>
+{% for post in posts %}
+<li><a href="{% url 'detail' post.pk %}"> {{post.title}} </a></li>
+{% endfor %}
+<br />
+<a href="{% url 'new' %}"> <button>작성하기</button></a>
+<br />
+<br />
+{% endblock %}

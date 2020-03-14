@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% load static %}
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>단어 수 세기 결과</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'result01.css' %}" />
+  </head>
+  <body>
+    <div class="div">
+      <h1><span class="t1">결과</span></h1>
+      <h2>{{TEXT}}</h2>
+      <h3><span class="t2">WORDS COUNT</span></h3>
+      {% for key, value in dic.items %}
+      <div>
+        <span class="t3"> <h4>{{key}}:{{value}}</h4></span>
+      </div>
+      {% endfor %}
+      <a href="{% url 'home01' %}" style="color: darkblue">TRY AGAIN</a>
+    </div>
+  </body>
+</html>

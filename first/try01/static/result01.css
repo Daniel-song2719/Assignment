@@ -1,0 +1,10 @@
+body {
+  background-color: darkcyan;
+}
+
+.div {
+  text-align: center;
+  border: dotted darkblue 0.5rem;
+  border-radius: 1rem;
+  margin: 3rem 40rem 3rem 40rem;
+}

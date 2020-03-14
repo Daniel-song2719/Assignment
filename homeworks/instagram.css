@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+}
+.header {
+  display: flex;
+
+  justify-content: space-around;
+  padding: 1rem 15rem 1rem 15rem;
+}
+
+.header_left h3 {
+  display: inline;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.8rem;
+  font-style: italic;
+  padding-left: 0.75rem;
+}
+hr {
+  margin: 0%;
+}
+main {
+  background-color: #efefef;
+  height: 100%;
+  width: 100%;
+}
+i {
+  font-size: 2rem;
+  padding: 0.25rem 1rem 0.25rem 1rem;
+}
+.fa-instagram {
+  font-size: 1.8rem;
+  border-right: 1px solid black;
+}
+.intro div {
+  display: flex;
+  justify-content: center;
+  padding-top: 10vh;
+}
+.pic {
+  border-radius: 100%;
+  width: 160px;
+  height: 160px;
+  margin-right: 5vw;
+}
+.profile h1 {
+  display: inline;
+  margin-right: 1rem;
+}
+
+@media (max-width: 500px) {
+  .profile button {
+    display: block;
+  }
+  .profile i {
+    display: none;
+  }
+}
+
+.num {
+  display: flex;
+}
+@media (max-width: 500px) {
+  .num {
+    display: none;
+  }
+}
+
+.num p {
+  margin-right: 1rem;
+}
+.story {
+  display: flex;
+  padding: 3rem 20rem 3rem 20rem;
+}
+.story img {
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+}
+.story div {
+  margin-left: 2rem;
+  text-align: center;
+}
+
+.body_text {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  margin: auto;
+  border-top: 1px solid rgb(197, 197, 197);
+  padding-top: 1rem;
+}
+.body_text2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  margin: auto;
+  border-top: 1px solid rgb(197, 197, 197);
+  padding-top: 1rem;
+}
+
+.records img {
+  width: 300px;
+  height: auto;
+}
+
+.records {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-auto-rows: repeat(3, 300px);
+  row-gap: 1rem;
+  column-gap: 1rem;
+  justify-content: center;
+  padding: 1rem 10rem 1rem 10rem;
+}
+
+@media (max-width: 1024px) {
+  .header_middle {
+    display: none;
+  }
+  .story {
+    padding: 3rem 0 3rem 0;
+  }
+
+  .intro div {
+    justify-content: flex-start;
+  }
+  .story div {
+    justify-content: flex-start;
+  }
+  .body_text {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .body_text2 {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .records img {
+    width: 200px;
+    height: auto;
+  }
+
+  .records {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-auto-rows: repeat(3, 200px);
+  }
+  .header_left h3 {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .records img {
+    width: 190px;
+    height: auto;
+  }
+
+  .records {
+    display: grid;
+    grid-template-columns: 190px 190px 190px;
+    grid-auto-rows: repeat(3, 190px);
+    row-gap: 0.2rem;
+    column-gap: 0.2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .records img {
+    width: 150px;
+    height: auto;
+  }
+
+  .records {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-auto-rows: repeat(3, 190px);
+    row-gap: 0.1rem;
+    column-gap: 0.1rem;
+  }
+}

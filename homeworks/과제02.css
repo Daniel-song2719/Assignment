@@ -1,0 +1,42 @@
+body {
+  background-color: #fff0f0;
+}
+header {
+  font-family: "Orbitron", sans-serif;
+}
+
+.title {
+  color: #107310;
+  font-family: "Orbitron", sans-serif;
+}
+.email01 {
+  color: #107310;
+  font-family: "Orbitron", sans-serif;
+}
+.aboutme {
+  color: #107310;
+  font-family: "Orbitron", sans-serif;
+}
+.careers {
+  color: #107310;
+  font-family: "Orbitron", sans-serif;
+}
+.SNS {
+  color: #107310;
+  font-family: "Orbitron", sans-serif;
+}
+.profile01 {
+  width: 300px;
+  height: auto;
+}
+header {
+  text-align: center;
+}
+body {
+  border: 3px solid black;
+  margin: 30px;
+}
+
+img {
+  border: 5px dotted black;
+}

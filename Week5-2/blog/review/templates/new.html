@@ -1,0 +1,11 @@
+{% extends 'base.html' %} {% block content %}
+
+<p>게시글을 작성하십시오</p>
+
+<form method="POST">
+  {% csrf_token %} {{ form.as_p }}
+  <button type="submit">게시글 작성하기</button>
+</form>
+<br />
+<br />
+{% endblock %}

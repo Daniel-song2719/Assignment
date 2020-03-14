@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+.header_left h3 {
+  display: inline;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+main {
+  background-color: #efefef;
+  height: 100vh;
+}
